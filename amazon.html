@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Amazon</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<nav>
+		<img class="logo" src="logo1.png" width="15%">
+			<div class="pcyber"><p class="cyber">cyber monday</p> deals week</div>
+		
+			<div class="details">
+				<details><summary>Departments</summary>Amazon Video Amazon Music Appstore for Android Echo & Alexa Fire Tablets Fire TV Kindle E-readers & Books
+			Books & Audible Movies, Music & Games Electronics, Computers & Office</div></p>
+		<form>
+			<input type="text" placeholder="Search..." name="search">
+			<button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+		</form>
+
+		<a href="#">Xour Amazon.com</a>
+		<a href="#">Cyber Monday Deals Week</a>
+		<a href="#">Gift Card</a>
+		<a href="#">Account</a>
+		<a href="#">Orders</a>
+		<a href="#">Try Prime</a>
+		<a href="#">Cart</a>
+
+
+	</nav>
+	<header>
+		<div class="slideshow-container">
+
+			<div class="mySlides fade">
+			  <img src="img/slide1.jpg" style="width:100%">
+			  <div class="text">Caption Text</div>
+			</div>
+
+			<div class="mySlides fade">
+			  <div class="numbertext">2 / 3</div>
+			  <img src="img/slide2.jpg" style="width:100%">
+			  <div class="text">Caption Two</div>
+			</div>
+
+			<div class="mySlides fade">
+			  <img src="img/slide3.jpg" style="width:100%">
+			  <div class="text">Caption Three</div>
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			</div>
+			<div class="buttonb">
+			<button type="submit" class="fbooter">Back to top</button>
+			</div>
+				</header>
+			<footer>
+				<article>
+					<div class="fsection">
+						<p>Get to know Us</p>
+						<ul>
+							<li><a href="#">Careers</a></li>
+							<li><a href="#">About Amazon</a></li>
+							<li><a href="#">Investor Relations</a></li>
+							<li><a href="#">Amazon Devices</a></li>
+						</ul>
+					</div>
+					<div class="fsection">
+						<p>Make Money with Us</p>
+						<ul>
+							<li><a href="#">Sell on Amazon</a></li>
+							<li><a href="#">Sell Your Device on Amazon</a></li>
+							<li><a href="#">Sell on Amazon Business</a></li>
+							<li><a href="#">Sell your Apps on Amazon</a></li>
+							<li><a href="#">Become an Affiliate</a></li>
+							<li><a href="#">Advertise Your Products</a></li>
+							<li><a href="#">Self-Publish with Us</a></li>
+							<li><a href="#">Become an Amazon Vendor</a></li>
+						</ul>
+					</div>
+					<div class="fsection">
+						<p>Amazon Payment Products</p>
+						<ul>
+							<li><a href="#">Amazon Rewards Visa Signature Cards</a></li>
+							<li><a href="#">Amazon.com Store Card</a></li>
+							<li><a href="#">Amazon.com Corporate Credit Line</a></li>
+							<li><a href="#">Shop with Points</a></li>
+							<li><a href="#">Credit Card Marketplace</a></li>
+							<li><a href="#">Reload Your Balance</a></li>
+							<li><a href="#">Amazon Curreny Converter</a></li>
+						</ul>
+					</div>
+					<div class="fsection">
+						<p>Let Us Help You</p>
+						<ul>
+							<li><a href="#">Careers</a></li>
+							<li><a href="#">Careers</a></li>
+							<li><a href="#">Careers</a></li>
+							<li><a href="#">Careers</a></li>
+						</ul>
+					</div>
+				</article>
+				<hr>
+
+				<div class="co">
+					<img class="fimg" src="logo1.png" width="12%">
+					<button class="usa" type="submit">United States</button>
+				</div>
+			</footer>
+			
+			<script>
+				var slideIndex = 1;
+				showSlides(slideIndex);
+
+				function plusSlides(n) {
+				  showSlides(slideIndex += n);
+				}
+
+				function currentSlide(n) {
+				  showSlides(slideIndex = n);
+				}
+
+				function showSlides(n) {
+				  var i;
+				  var slides = document.getElementsByClassName("mySlides");
+				  var dots = document.getElementsByClassName("dot");
+				  if (n > slides.length) {slideIndex = 1}    
+				  if (n < 1) {slideIndex = slides.length}
+				  for (i = 0; i < slides.length; i++) {
+				      slides[i].style.display = "none";  
+				  }
+				  for (i = 0; i < dots.length; i++) {
+				      dots[i].className = dots[i].className.replace(" active", "");
+				  }
+				  slides[slideIndex-1].style.display = "block";  
+				  dots[slideIndex-1].className += "active";
+				}
+			</script>
+
+	
+</body>
+
+</html>
