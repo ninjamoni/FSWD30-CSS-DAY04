@@ -9,8 +9,10 @@ nav{
 footer{
   background-color: #24303e
 }
+
 footer article{
   display: flex;
+  justify-content: space-evenly;
   text-decoration: none;
 }
 footer article a{
